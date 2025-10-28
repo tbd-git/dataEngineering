@@ -1,1 +1,17 @@
 test git setup in local
+Pushing or committing new changes to the local repository
+Steps: 
+git clone <remote-repo-link>
+git checkout development
+git checkout -b <create-feature-branch>
+-----
+staging command
+-----
+git add -p *
+git commit -m "add a message for the change"
+git push origin <created-feature-branch>
+---
+check for status
+git status
+---
+
