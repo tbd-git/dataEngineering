@@ -1,1 +1,23 @@
 test git setup in local
+GOD@DESKTOP-A5UMJJ1 MINGW64 ~/Desktop/D.E with nilu nana/git module/fork,pull,push in git/dataEngineering (main)
+$ git staus
+git: 'staus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+GOD@DESKTOP-A5UMJJ1 MINGW64 ~/Desktop/D.E with nilu nana/git module/fork,pull,push in git/dataEngineering (main)
+$ ls -a
+./  ../  .git/  Steps.txt
+
+GOD@DESKTOP-A5UMJJ1 MINGW64 ~/Desktop/D.E with nilu nana/git module/fork,pull,push in git/dataEngineering (main)
+$ git remote -v
+origin  https://github.com/Ajjupie/dataEngineering.git (fetch)
+origin  https://github.com/Ajjupie/dataEngineering.git (push)
+
+GOD@DESKTOP-A5UMJJ1 MINGW64 ~/Desktop/D.E with nilu nana/git module/fork,pull,push in git/dataEngineering (main)
+$ git remote add upstream https://github.com/Ajjupie/dataEngineering.git
+
+GOD@DESKTOP-A5UMJJ1 MINGW64 ~/Desktop/D.E with nilu nana/git module/fork,pull,push in git/dataEngineering (main)
+▒  
+ did some edits and pushing back
