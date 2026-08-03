@@ -1,0 +1,11 @@
+id,name,date_of_joining,date_of_birth,is_manager,department,salary
+EMP-1001,Sarah Jenkins,2018-03-15,1988-06-22,True,Engineering,125000
+EMP-1002,Marcus Chen,2020-07-01,1993-11-04,False,Engineering,88000
+EMP-1003,Elena Rostova,2016-01-10,1985-02-14,True,Finance,135000
+EMP-1004,David Miller,2021-09-20,1996-08-30,False,Marketing,68000
+EMP-1005,Priya Sharma,2019-11-05,1991-04-12,True,Human Resources,105000
+EMP-1006,James Wilson,2022-02-14,1998-12-01,False,Finance,72000
+EMP-1007,Aisha Al-Mansoor,2017-05-18,1987-09-25,True,Sales,140000
+EMP-1008,Carlos Gomez,2023-01-09,2000-03-18,False,Engineering,75000
+EMP-1009,Hannah Abbott,2021-04-12,1994-07-08,False,Marketing,64000
+EMP-1010,Robert Taylor,2015-08-24,1982-10-15,False,Operations,92000
