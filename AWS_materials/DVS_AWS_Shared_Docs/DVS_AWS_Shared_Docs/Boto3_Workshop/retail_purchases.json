@@ -1,0 +1,423 @@
+[
+  {
+    "customerid": "customer01@example.com",
+    "purchasedate": "2026-01-05T09:15Z",
+    "productid": "PROD-1001",
+    "department": "Electronics",
+    "size": "N/A",
+    "colour": "Black",
+    "units": 1,
+    "price": 899,
+    "weight": "Medium",
+    "product": {
+      "name": "Wireless Headphones",
+      "brand": "SoundMax",
+      "subcategory": "Audio"
+    },
+    "deliveryAddress": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "postalCode": "560001"
+    },
+    "tags": [
+      "bestseller",
+      "wireless",
+      "audio"
+    ],
+    "payment": {
+      "method": "UPI",
+      "channel": "MobileApp",
+      "reference": "TXN-90001"
+    },
+    "discounts": [
+      {
+        "type": "WELCOME",
+        "amount": 50
+      }
+    ],
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "customerid": "customer02@example.com",
+    "purchasedate": "2026-01-07T11:30Z",
+    "productid": "PROD-1002",
+    "department": "Books",
+    "size": "N/A",
+    "colour": "N/A",
+    "units": 2,
+    "price": 35,
+    "weight": "Light",
+    "product": {
+      "name": "Data Engineering Handbook",
+      "brand": "TechPress",
+      "subcategory": "Technology"
+    },
+    "deliveryAddress": {
+      "city": "Mysuru",
+      "state": "Karnataka",
+      "postalCode": "570001"
+    },
+    "tags": [
+      "technology",
+      "programming",
+      "bestseller"
+    ],
+    "payment": {
+      "method": "CreditCard",
+      "channel": "Web",
+      "reference": "TXN-90002"
+    },
+    "discounts": [
+      {
+        "type": "BOOK10",
+        "amount": 10
+      },
+      {
+        "type": "MEMBER",
+        "amount": 5
+      }
+    ],
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "customerid": "customer01@example.com",
+    "purchasedate": "2026-01-10T14:20Z",
+    "productid": "PROD-1003",
+    "department": "Clothing",
+    "size": "Large",
+    "colour": "Blue",
+    "units": 3,
+    "price": 55,
+    "weight": "Light",
+    "product": {
+      "name": "Cotton Casual Shirt",
+      "brand": "UrbanWear",
+      "subcategory": "Mens Clothing"
+    },
+    "deliveryAddress": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "postalCode": "560034"
+    },
+    "tags": [
+      "cotton",
+      "casual",
+      "summer"
+    ],
+    "payment": {
+      "method": "UPI",
+      "channel": "MobileApp",
+      "reference": "TXN-90003"
+    },
+    "discounts": [
+      {
+        "type": "FASHION15",
+        "amount": 15
+      }
+    ],
+    "ratings": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "customerid": "customer03@example.com",
+    "purchasedate": "2026-01-12T16:45Z",
+    "productid": "PROD-1004",
+    "department": "Home & Kitchen",
+    "size": "N/A",
+    "colour": "Silver",
+    "units": 1,
+    "price": 129,
+    "weight": "Medium",
+    "product": {
+      "name": "Electric Coffee Maker",
+      "brand": "BrewPro",
+      "subcategory": "Kitchen Appliances"
+    },
+    "deliveryAddress": {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "postalCode": "600018"
+    },
+    "tags": [
+      "coffee",
+      "kitchen",
+      "appliance"
+    ],
+    "payment": {
+      "method": "DebitCard",
+      "channel": "Web",
+      "reference": "TXN-90004"
+    },
+    "discounts": [
+      {
+        "type": "KITCHEN20",
+        "amount": 20
+      }
+    ],
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "customerid": "customer04@example.com",
+    "purchasedate": "2026-01-15T10:10Z",
+    "productid": "PROD-1005",
+    "department": "Sports",
+    "size": "Medium",
+    "colour": "Green",
+    "units": 4,
+    "price": 40,
+    "weight": "Medium",
+    "product": {
+      "name": "Performance Running T-Shirt",
+      "brand": "RunFit",
+      "subcategory": "Running"
+    },
+    "deliveryAddress": {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "postalCode": "500081"
+    },
+    "tags": [
+      "running",
+      "sportswear",
+      "fitness"
+    ],
+    "payment": {
+      "method": "UPI",
+      "channel": "MobileApp",
+      "reference": "TXN-90005"
+    },
+    "discounts": [
+      {
+        "type": "SPORTS10",
+        "amount": 10
+      }
+    ],
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "customerid": "customer02@example.com",
+    "purchasedate": "2026-01-18T13:05Z",
+    "productid": "PROD-1006",
+    "department": "Electronics",
+    "size": "N/A",
+    "colour": "White",
+    "units": 2,
+    "price": 649,
+    "weight": "Heavy",
+    "product": {
+      "name": "Smart LED Monitor",
+      "brand": "ViewMax",
+      "subcategory": "Computer Accessories"
+    },
+    "deliveryAddress": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "postalCode": "411014"
+    },
+    "tags": [
+      "monitor",
+      "office",
+      "work-from-home"
+    ],
+    "payment": {
+      "method": "CreditCard",
+      "channel": "Web",
+      "reference": "TXN-90006"
+    },
+    "discounts": [
+      {
+        "type": "ELECTRONICS25",
+        "amount": 25
+      },
+      {
+        "type": "MEMBER",
+        "amount": 15
+      }
+    ],
+    "ratings": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "customerid": "customer05@example.com",
+    "purchasedate": "2026-01-21T15:40Z",
+    "productid": "PROD-1007",
+    "department": "Home & Kitchen",
+    "size": "N/A",
+    "colour": "Red",
+    "units": 5,
+    "price": 25,
+    "weight": "Light",
+    "product": {
+      "name": "Ceramic Dinner Plate Set",
+      "brand": "HomeCraft",
+      "subcategory": "Dining"
+    },
+    "deliveryAddress": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "postalCode": "400050"
+    },
+    "tags": [
+      "dining",
+      "ceramic",
+      "home"
+    ],
+    "payment": {
+      "method": "UPI",
+      "channel": "MobileApp",
+      "reference": "TXN-90007"
+    },
+    "discounts": [
+      {
+        "type": "HOME15",
+        "amount": 15
+      }
+    ],
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "customerid": "customer03@example.com",
+    "purchasedate": "2026-01-24T18:25Z",
+    "productid": "PROD-1008",
+    "department": "Electronics",
+    "size": "N/A",
+    "colour": "Grey",
+    "units": 1,
+    "price": 1199,
+    "weight": "Heavy",
+    "product": {
+      "name": "4K Smart Television",
+      "brand": "VisionPlus",
+      "subcategory": "Television"
+    },
+    "deliveryAddress": {
+      "city": "Delhi",
+      "state": "Delhi",
+      "postalCode": "110017"
+    },
+    "tags": [
+      "4K",
+      "smart-tv",
+      "entertainment"
+    ],
+    "payment": {
+      "method": "CreditCard",
+      "channel": "Web",
+      "reference": "TXN-90008"
+    },
+    "discounts": [
+      {
+        "type": "TV50",
+        "amount": 50
+      }
+    ],
+    "ratings": [
+      4,
+      5
+    ]
+  },
+  {
+    "customerid": "customer01@example.com",
+    "purchasedate": "2026-01-27T12:50Z",
+    "productid": "PROD-1009",
+    "department": "Clothing",
+    "size": "Medium",
+    "colour": "Black",
+    "units": 2,
+    "price": 75,
+    "weight": "Light",
+    "product": {
+      "name": "Slim Fit Denim Jeans",
+      "brand": "DenimWorks",
+      "subcategory": "Mens Clothing"
+    },
+    "deliveryAddress": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "postalCode": "560068"
+    },
+    "tags": [
+      "denim",
+      "casual",
+      "fashion"
+    ],
+    "payment": {
+      "method": "UPI",
+      "channel": "MobileApp",
+      "reference": "TXN-90009"
+    },
+    "discounts": [
+      {
+        "type": "DENIM20",
+        "amount": 20
+      }
+    ],
+    "ratings": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "customerid": "customer06@example.com",
+    "purchasedate": "2026-01-30T17:15Z",
+    "productid": "PROD-1010",
+    "department": "Gardening",
+    "size": "N/A",
+    "colour": "Green",
+    "units": 3,
+    "price": 32,
+    "weight": "Medium",
+    "product": {
+      "name": "Garden Tool Set",
+      "brand": "GreenGrow",
+      "subcategory": "Garden Tools"
+    },
+    "deliveryAddress": {
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "postalCode": "641001"
+    },
+    "tags": [
+      "gardening",
+      "tools",
+      "outdoor"
+    ],
+    "payment": {
+      "method": "DebitCard",
+      "channel": "Web",
+      "reference": "TXN-90010"
+    },
+    "discounts": [
+      {
+        "type": "GARDEN10",
+        "amount": 10
+      }
+    ],
+    "ratings": [
+      4,
+      5
+    ]
+  }
+]

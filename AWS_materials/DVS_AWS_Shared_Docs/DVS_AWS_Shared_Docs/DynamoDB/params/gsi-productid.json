@@ -1,0 +1,20 @@
+[
+  {
+    "Create": {
+      "IndexName": "productid-index",
+      "KeySchema": [
+        {
+          "AttributeName": "productid",
+          "KeyType": "HASH"
+        }
+      ],
+      "Projection": {
+        "ProjectionType": "ALL"
+      },
+      "ProvisionedThroughput": {
+        "ReadCapacityUnits": 5,
+        "WriteCapacityUnits": 5
+      }
+    }
+  }
+]
