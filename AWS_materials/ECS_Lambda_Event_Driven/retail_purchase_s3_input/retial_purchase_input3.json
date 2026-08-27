@@ -1,0 +1,24 @@
+{
+  "retail-purchases": [
+    {
+      "PutRequest": {
+        "Item": {
+          "customerid": {"S": "CUST-3301"},
+          "purchasedate": {"S": "2023-11-12T10:00:00Z"},
+          "item": {"S": "Wireless Charging Pad"},
+          "color": {"S": "Matte Black"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customerid": {"S": "CUST-3302"},
+          "purchasedate": {"S": "2023-11-12T11:45:00Z"},
+          "item": {"S": "USB-C to HDMI Adapter"},
+          "color": {"S": "Silver"}
+        }
+      }
+    }
+  ]
+}

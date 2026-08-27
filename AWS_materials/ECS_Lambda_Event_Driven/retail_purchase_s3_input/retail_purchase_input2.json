@@ -1,0 +1,26 @@
+{
+  "retail-purchases": [
+    {
+      "PutRequest": {
+        "Item": {
+          "customerid": {"S": "CUST-2099"},
+          "purchasedate": {"S": "2023-11-11T14:22:00Z"},
+          "item": {"S": "Cloud Storage Annual Plan"},
+          "tier": {"S": "Premium"},
+          "price": {"N": "99.00"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customerid": {"S": "CUST-2100"},
+          "purchasedate": {"S": "2023-11-11T15:05:00Z"},
+          "item": {"S": "Antivirus License"},
+          "tier": {"S": "Basic"},
+          "price": {"N": "39.99"}
+        }
+      }
+    }
+  ]
+}

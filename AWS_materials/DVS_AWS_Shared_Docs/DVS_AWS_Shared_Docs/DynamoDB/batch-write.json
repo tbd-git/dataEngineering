@@ -1,0 +1,536 @@
+{
+  "retail-purchases": [
+    {
+      "PutRequest": {
+        "Item": {
+          "customerid": {"S": "customer01@example.com"},
+          "purchasedate": {"S": "2026-01-05T09:15Z"},
+          "productid": {"S": "PROD-1001"},
+          "department": {"S": "Electronics"},
+          "size": {"S": "N/A"},
+          "colour": {"S": "Black"},
+          "units": {"N": "1"},
+          "price": {"N": "899"},
+          "weight": {"S": "Medium"},
+          "product": {
+            "M": {
+              "name": {"S": "Wireless Headphones"},
+              "brand": {"S": "SoundMax"},
+              "subcategory": {"S": "Audio"}
+            }
+          },
+          "deliveryAddress": {
+            "M": {
+              "city": {"S": "Bengaluru"},
+              "state": {"S": "Karnataka"},
+              "postalCode": {"S": "560001"}
+            }
+          },
+          "tags": {
+            "SS": ["bestseller", "wireless", "audio"]
+          },
+          "payment": {
+            "M": {
+              "method": {"S": "UPI"},
+              "channel": {"S": "MobileApp"},
+              "reference": {"S": "TXN-90001"}
+            }
+          },
+          "discounts": {
+            "L": [
+              {
+                "M": {
+                  "type": {"S": "WELCOME"},
+                  "amount": {"N": "50"}
+                }
+              }
+            ]
+          },
+          "ratings": {
+            "NS": ["4", "5"]
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customerid": {"S": "customer02@example.com"},
+          "purchasedate": {"S": "2026-01-07T11:30Z"},
+          "productid": {"S": "PROD-1002"},
+          "department": {"S": "Books"},
+          "size": {"S": "N/A"},
+          "colour": {"S": "N/A"},
+          "units": {"N": "2"},
+          "price": {"N": "35"},
+          "weight": {"S": "Light"},
+          "product": {
+            "M": {
+              "name": {"S": "Data Engineering Handbook"},
+              "brand": {"S": "TechPress"},
+              "subcategory": {"S": "Technology"}
+            }
+          },
+          "deliveryAddress": {
+            "M": {
+              "city": {"S": "Mysuru"},
+              "state": {"S": "Karnataka"},
+              "postalCode": {"S": "570001"}
+            }
+          },
+          "tags": {
+            "SS": ["technology", "programming", "bestseller"]
+          },
+          "payment": {
+            "M": {
+              "method": {"S": "CreditCard"},
+              "channel": {"S": "Web"},
+              "reference": {"S": "TXN-90002"}
+            }
+          },
+          "discounts": {
+            "L": [
+              {
+                "M": {
+                  "type": {"S": "BOOK10"},
+                  "amount": {"N": "10"}
+                }
+              },
+              {
+                "M": {
+                  "type": {"S": "MEMBER"},
+                  "amount": {"N": "5"}
+                }
+              }
+            ]
+          },
+          "ratings": {
+            "NS": ["4", "5"]
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customerid": {"S": "customer01@example.com"},
+          "purchasedate": {"S": "2026-01-10T14:20Z"},
+          "productid": {"S": "PROD-1003"},
+          "department": {"S": "Clothing"},
+          "size": {"S": "Large"},
+          "colour": {"S": "Blue"},
+          "units": {"N": "3"},
+          "price": {"N": "55"},
+          "weight": {"S": "Light"},
+          "product": {
+            "M": {
+              "name": {"S": "Cotton Casual Shirt"},
+              "brand": {"S": "UrbanWear"},
+              "subcategory": {"S": "Mens Clothing"}
+            }
+          },
+          "deliveryAddress": {
+            "M": {
+              "city": {"S": "Bengaluru"},
+              "state": {"S": "Karnataka"},
+              "postalCode": {"S": "560034"}
+            }
+          },
+          "tags": {
+            "SS": ["cotton", "casual", "summer"]
+          },
+          "payment": {
+            "M": {
+              "method": {"S": "UPI"},
+              "channel": {"S": "MobileApp"},
+              "reference": {"S": "TXN-90003"}
+            }
+          },
+          "discounts": {
+            "L": [
+              {
+                "M": {
+                  "type": {"S": "FASHION15"},
+                  "amount": {"N": "15"}
+                }
+              }
+            ]
+          },
+          "ratings": {
+            "NS": ["3", "4", "5"]
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customerid": {"S": "customer03@example.com"},
+          "purchasedate": {"S": "2026-01-12T16:45Z"},
+          "productid": {"S": "PROD-1004"},
+          "department": {"S": "Home & Kitchen"},
+          "size": {"S": "N/A"},
+          "colour": {"S": "Silver"},
+          "units": {"N": "1"},
+          "price": {"N": "129"},
+          "weight": {"S": "Medium"},
+          "product": {
+            "M": {
+              "name": {"S": "Electric Coffee Maker"},
+              "brand": {"S": "BrewPro"},
+              "subcategory": {"S": "Kitchen Appliances"}
+            }
+          },
+          "deliveryAddress": {
+            "M": {
+              "city": {"S": "Chennai"},
+              "state": {"S": "Tamil Nadu"},
+              "postalCode": {"S": "600018"}
+            }
+          },
+          "tags": {
+            "SS": ["coffee", "kitchen", "appliance"]
+          },
+          "payment": {
+            "M": {
+              "method": {"S": "DebitCard"},
+              "channel": {"S": "Web"},
+              "reference": {"S": "TXN-90004"}
+            }
+          },
+          "discounts": {
+            "L": [
+              {
+                "M": {
+                  "type": {"S": "KITCHEN20"},
+                  "amount": {"N": "20"}
+                }
+              }
+            ]
+          },
+          "ratings": {
+            "NS": ["4", "5"]
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customerid": {"S": "customer04@example.com"},
+          "purchasedate": {"S": "2026-01-15T10:10Z"},
+          "productid": {"S": "PROD-1005"},
+          "department": {"S": "Sports"},
+          "size": {"S": "Medium"},
+          "colour": {"S": "Green"},
+          "units": {"N": "4"},
+          "price": {"N": "40"},
+          "weight": {"S": "Medium"},
+          "product": {
+            "M": {
+              "name": {"S": "Performance Running T-Shirt"},
+              "brand": {"S": "RunFit"},
+              "subcategory": {"S": "Running"}
+            }
+          },
+          "deliveryAddress": {
+            "M": {
+              "city": {"S": "Hyderabad"},
+              "state": {"S": "Telangana"},
+              "postalCode": {"S": "500081"}
+            }
+          },
+          "tags": {
+            "SS": ["running", "sportswear", "fitness"]
+          },
+          "payment": {
+            "M": {
+              "method": {"S": "UPI"},
+              "channel": {"S": "MobileApp"},
+              "reference": {"S": "TXN-90005"}
+            }
+          },
+          "discounts": {
+            "L": [
+              {
+                "M": {
+                  "type": {"S": "SPORTS10"},
+                  "amount": {"N": "10"}
+                }
+              }
+            ]
+          },
+          "ratings": {
+            "NS": ["4", "5"]
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customerid": {"S": "customer02@example.com"},
+          "purchasedate": {"S": "2026-01-18T13:05Z"},
+          "productid": {"S": "PROD-1006"},
+          "department": {"S": "Electronics"},
+          "size": {"S": "N/A"},
+          "colour": {"S": "White"},
+          "units": {"N": "2"},
+          "price": {"N": "649"},
+          "weight": {"S": "Heavy"},
+          "product": {
+            "M": {
+              "name": {"S": "Smart LED Monitor"},
+              "brand": {"S": "ViewMax"},
+              "subcategory": {"S": "Computer Accessories"}
+            }
+          },
+          "deliveryAddress": {
+            "M": {
+              "city": {"S": "Pune"},
+              "state": {"S": "Maharashtra"},
+              "postalCode": {"S": "411014"}
+            }
+          },
+          "tags": {
+            "SS": ["monitor", "office", "work-from-home"]
+          },
+          "payment": {
+            "M": {
+              "method": {"S": "CreditCard"},
+              "channel": {"S": "Web"},
+              "reference": {"S": "TXN-90006"}
+            }
+          },
+          "discounts": {
+            "L": [
+              {
+                "M": {
+                  "type": {"S": "ELECTRONICS25"},
+                  "amount": {"N": "25"}
+                }
+              },
+              {
+                "M": {
+                  "type": {"S": "MEMBER"},
+                  "amount": {"N": "15"}
+                }
+              }
+            ]
+          },
+          "ratings": {
+            "NS": ["3", "4", "5"]
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customerid": {"S": "customer05@example.com"},
+          "purchasedate": {"S": "2026-01-21T15:40Z"},
+          "productid": {"S": "PROD-1007"},
+          "department": {"S": "Home & Kitchen"},
+          "size": {"S": "N/A"},
+          "colour": {"S": "Red"},
+          "units": {"N": "5"},
+          "price": {"N": "25"},
+          "weight": {"S": "Light"},
+          "product": {
+            "M": {
+              "name": {"S": "Ceramic Dinner Plate Set"},
+              "brand": {"S": "HomeCraft"},
+              "subcategory": {"S": "Dining"}
+            }
+          },
+          "deliveryAddress": {
+            "M": {
+              "city": {"S": "Mumbai"},
+              "state": {"S": "Maharashtra"},
+              "postalCode": {"S": "400050"}
+            }
+          },
+          "tags": {
+            "SS": ["dining", "ceramic", "home"]
+          },
+          "payment": {
+            "M": {
+              "method": {"S": "UPI"},
+              "channel": {"S": "MobileApp"},
+              "reference": {"S": "TXN-90007"}
+            }
+          },
+          "discounts": {
+            "L": [
+              {
+                "M": {
+                  "type": {"S": "HOME15"},
+                  "amount": {"N": "15"}
+                }
+              }
+            ]
+          },
+          "ratings": {
+            "NS": ["4", "5"]
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customerid": {"S": "customer03@example.com"},
+          "purchasedate": {"S": "2026-01-24T18:25Z"},
+          "productid": {"S": "PROD-1008"},
+          "department": {"S": "Electronics"},
+          "size": {"S": "N/A"},
+          "colour": {"S": "Grey"},
+          "units": {"N": "1"},
+          "price": {"N": "1199"},
+          "weight": {"S": "Heavy"},
+          "product": {
+            "M": {
+              "name": {"S": "4K Smart Television"},
+              "brand": {"S": "VisionPlus"},
+              "subcategory": {"S": "Television"}
+            }
+          },
+          "deliveryAddress": {
+            "M": {
+              "city": {"S": "Delhi"},
+              "state": {"S": "Delhi"},
+              "postalCode": {"S": "110017"}
+            }
+          },
+          "tags": {
+            "SS": ["4K", "smart-tv", "entertainment"]
+          },
+          "payment": {
+            "M": {
+              "method": {"S": "CreditCard"},
+              "channel": {"S": "Web"},
+              "reference": {"S": "TXN-90008"}
+            }
+          },
+          "discounts": {
+            "L": [
+              {
+                "M": {
+                  "type": {"S": "TV50"},
+                  "amount": {"N": "50"}
+                }
+              }
+            ]
+          },
+          "ratings": {
+            "NS": ["4", "5"]
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customerid": {"S": "customer01@example.com"},
+          "purchasedate": {"S": "2026-01-27T12:50Z"},
+          "productid": {"S": "PROD-1009"},
+          "department": {"S": "Clothing"},
+          "size": {"S": "Medium"},
+          "colour": {"S": "Black"},
+          "units": {"N": "2"},
+          "price": {"N": "75"},
+          "weight": {"S": "Light"},
+          "product": {
+            "M": {
+              "name": {"S": "Slim Fit Denim Jeans"},
+              "brand": {"S": "DenimWorks"},
+              "subcategory": {"S": "Mens Clothing"}
+            }
+          },
+          "deliveryAddress": {
+            "M": {
+              "city": {"S": "Bengaluru"},
+              "state": {"S": "Karnataka"},
+              "postalCode": {"S": "560068"}
+            }
+          },
+          "tags": {
+            "SS": ["denim", "casual", "fashion"]
+          },
+          "payment": {
+            "M": {
+              "method": {"S": "UPI"},
+              "channel": {"S": "MobileApp"},
+              "reference": {"S": "TXN-90009"}
+            }
+          },
+          "discounts": {
+            "L": [
+              {
+                "M": {
+                  "type": {"S": "DENIM20"},
+                  "amount": {"N": "20"}
+                }
+              }
+            ]
+          },
+          "ratings": {
+            "NS": ["3", "4", "5"]
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customerid": {"S": "customer06@example.com"},
+          "purchasedate": {"S": "2026-01-30T17:15Z"},
+          "productid": {"S": "PROD-1010"},
+          "department": {"S": "Gardening"},
+          "size": {"S": "N/A"},
+          "colour": {"S": "Green"},
+          "units": {"N": "3"},
+          "price": {"N": "32"},
+          "weight": {"S": "Medium"},
+          "product": {
+            "M": {
+              "name": {"S": "Garden Tool Set"},
+              "brand": {"S": "GreenGrow"},
+              "subcategory": {"S": "Garden Tools"}
+            }
+          },
+          "deliveryAddress": {
+            "M": {
+              "city": {"S": "Coimbatore"},
+              "state": {"S": "Tamil Nadu"},
+              "postalCode": {"S": "641001"}
+            }
+          },
+          "tags": {
+            "SS": ["gardening", "tools", "outdoor"]
+          },
+          "payment": {
+            "M": {
+              "method": {"S": "DebitCard"},
+              "channel": {"S": "Web"},
+              "reference": {"S": "TXN-90010"}
+            }
+          },
+          "discounts": {
+            "L": [
+              {
+                "M": {
+                  "type": {"S": "GARDEN10"},
+                  "amount": {"N": "10"}
+                }
+              }
+            ]
+          },
+          "ratings": {
+            "NS": ["4", "5"]
+          }
+        }
+      }
+    }
+  ]
+}

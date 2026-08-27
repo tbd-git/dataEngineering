@@ -1,0 +1,8 @@
+{
+  ":cid": {
+    "S": "customer01@example.com"
+  },
+  ":date": {
+    "S": "2026-01-09T00:00Z"
+  }
+}

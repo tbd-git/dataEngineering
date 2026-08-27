@@ -1,0 +1,21 @@
+{
+  "retail-purchases": [
+    {
+      "PutRequest": {
+        "Item": {
+          "customerid": {"S": "CUST-9998"},
+          "purchasedate": {"S": "2023-11-14T12:00:00Z"},
+          "item": {"S": "Valid Purchase"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customerid": {"S": "CUST-9999"},
+          "item": {"S": "Invalid Purchase - Missing Date"}
+        }
+      }
+    }
+  ]
+}

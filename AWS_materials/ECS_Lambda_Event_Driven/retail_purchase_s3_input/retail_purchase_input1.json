@@ -1,0 +1,24 @@
+{
+  "retail-purchases": [
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {"S": "CUST-1055"},
+          "purchase_date": {"S": "2023-11-10T08:30:00Z"},
+          "item": {"S": "Ergonomic Desk Chair"},
+          "price": {"N": "249.99"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {"S": "CUST-1056"},
+          "purchase_date": {"S": "2023-11-10T09:15:00Z"},
+          "item": {"S": "Mechanical Keyboard"},
+          "price": {"N": "129.50"}
+        }
+      }
+    }
+  ]
+}

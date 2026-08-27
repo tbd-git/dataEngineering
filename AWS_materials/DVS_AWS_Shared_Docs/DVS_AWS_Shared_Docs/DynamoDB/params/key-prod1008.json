@@ -1,0 +1,8 @@
+{
+  "customerid": {
+    "S": "customer03@example.com"
+  },
+  "purchasedate": {
+    "S": "2026-01-24T18:25Z"
+  }
+}

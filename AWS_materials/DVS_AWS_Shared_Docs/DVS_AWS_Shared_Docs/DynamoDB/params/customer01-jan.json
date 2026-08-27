@@ -1,0 +1,11 @@
+{
+  ":customerid": {
+    "S": "customer01@example.com"
+  },
+  ":start": {
+    "S": "2026-01-01T00:00Z"
+  },
+  ":end": {
+    "S": "2026-01-31T23:59Z"
+  }
+}
