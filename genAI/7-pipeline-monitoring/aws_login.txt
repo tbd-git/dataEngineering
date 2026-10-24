@@ -1,0 +1,61 @@
+--Run the following command
+aws login
+
+--Outputs:
+  
+Configure AWS skills and the AWS MCP server for your AI coding agent(s)? [y/n/never]: msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msiy
+Invalid response. Please enter "y", "n", or "never"
+
+Configure AWS skills and the AWS MCP server for your AI coding agent(s)? [y/n/never]: y
+
+Detecting installed AI coding agents...
+  ✓ Claude Code — C:\Users\nsdeo/.claude/skills
+  ✗ Cline — ~/.cline/skills (not found)
+  ✗ Codex — ~/.agents/skills (not found)
+  ✗ Cursor — ~/.cursor/skills (not found)
+  ✗ Gemini CLI — ~/.agents/skills (not found)
+  ✗ Kiro — ~/.kiro/skills (not found)
+  ✗ OpenClaw — ~/.openclaw/skills (not found)
+  ✗ OpenCode — ~/.agents/skills (not found)
+  ✗ Pi — ~/.pi/agent/skills (not found)
+  ✗ Windsurf — ~/.agents/skills (not found)
+
+Fetching default AWS skills...
+  Found: amazon-bedrock, aws-ai-ml, aws-auth, aws-billing-and-cost-management, aws-blocks, aws-cdk, aws-cloudformation, aws-compute, aws-containers, aws-database, aws-deployment, aws-iam, aws-messaging-and-streaming, aws-networking, aws-observability, aws-sdk-js-v3-usage, aws-sdk-python-usage, aws-sdk-swift-usage, aws-security, aws-serverless, aws-storage, launch-with-aws, signing-in-to-aws
+
+Install 23 default AWS skills? [Y/n]: Y
+
+Installing 23 default AWS skills...
+  [1/23] amazon-bedrock
+  [2/23] aws-ai-ml
+  [3/23] aws-auth
+  [4/23] aws-billing-and-cost-management
+  [5/23] aws-blocks
+  [6/23] aws-cdk
+  [7/23] aws-cloudformation
+  [8/23] aws-compute
+  [9/23] aws-containers
+  [10/23] aws-database
+  [11/23] aws-deployment
+  [12/23] aws-iam
+  [13/23] aws-messaging-and-streaming
+  [14/23] aws-networking
+  [15/23] aws-observability
+  [16/23] aws-sdk-js-v3-usage
+  [17/23] aws-sdk-python-usage
+  [18/23] aws-sdk-swift-usage
+  [19/23] aws-security
+  [20/23] aws-serverless
+  [21/23] aws-storage
+  [22/23] launch-with-aws
+  [23/23] signing-in-to-aws
+
+Skills installed to:
+  Claude Code — C:\Users\nsdeo/.claude/skills
+
+Configure AWS MCP server connection? [Y/n]: Y
+
+AWS MCP server configured for:
+  ✓ Claude Code — C:\Users\nsdeo/.claude.json: updated
+
+You can discover additional skills with 'aws agent-toolkit search-skills --search-query <text>'
