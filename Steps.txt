@@ -1,4 +1,12 @@
 setup environment. ex: dataEngEnv\Scripts\Activate.ps1
+pip install pyspark==4.2.0 delta-spark==4.4.1
+pip install --no-cache-dir pyspark==4.2.0 delta-spark==4.4.1
+
 pip install pyspark jupyter findspark
 import findspark
 findspark.init()
+
+---
+
+pip install pyspark==<compatible-spark-version>
+pyspark --packages io.delta:delta-spark_2.13:4.0.0 --conf "spark.sql.extensions=io.delta.sql.DeltaSparkSessionExtension" --conf "spark.sql.catalog.spark_catalog=org.apache.spark.sql.delta.catalog.DeltaCatalog"
